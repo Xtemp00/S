@@ -22,6 +22,16 @@ body {
     background: #18343a;
     color:#F3AC3C;
 }
+.info {
+    flex: 1 0 auto;
+}
+.info ul li{
+    padding: 5vw 10vw;
+    text-align: justify;
+    background: #18343a;
+    color:#F3AC3C;
+}
+
 @media only screen and (max-width: 1400px){
     .navigation ul li {
         position: relative;
@@ -33,6 +43,8 @@ body {
         border-radius: 100%;
     }
 }
+
+
 
 /* stylesheet of Settings.html body */
 .settings {
